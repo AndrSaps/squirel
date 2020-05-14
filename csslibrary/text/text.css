@@ -1,0 +1,74 @@
+/*TEXT-COLORS*/
+
+.text-white{
+    color: #ffffff;
+}
+
+.text-black{
+    color: #000000;
+}
+
+
+/*FONT-SIZE*/
+
+.text-14{
+	font-size: 14px;
+}
+
+
+.text-16{
+	font-size: 1rem;
+}
+
+
+.text-18{
+	font-size: 18px;
+}
+
+.text-20{
+	font-size: 20px;
+}
+
+.text-22{
+	font-size: 22px;
+}
+
+
+.text-24{
+	font-size: 1.5rem;
+}
+
+.text-42{
+	font-size: 42px;
+}
+
+
+
+/*FONT-WEIGHT*/
+
+.font-weight-300{
+	font-weight: 300;	
+}
+
+.font-weight-400{
+	font-weight: 400;	
+}
+
+.font-weight-500{
+	font-weight: 500;	
+}
+
+.font-weight-700{
+	font-weight: 700;	
+}
+
+.font-weight-900{
+	font-weight: 900;	
+}
+
+
+/**/
+
+.text-center {
+	text-align: center;
+}

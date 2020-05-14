@@ -1,0 +1,13 @@
+/*FLOATS*/
+
+.f-left{
+    float: left;
+}
+
+.f-right{
+    float: right;
+}
+
+.clearfix{
+    clear: both;
+}

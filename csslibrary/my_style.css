@@ -1,0 +1,179 @@
+/*Шрифт*/
+*{
+    font-family: 'Ubuntu', sans-serif;
+}
+/*ширина основного контейнера*/
+.container{
+    width:70%;
+    margin: 0 auto;
+}
+/*колір заднього фону*/
+.bg-main{
+    background: darkslategray;
+}
+/*Фото заднього фону*/
+body{
+    background-image:url("../images/phone.jpg") ;
+    background-attachment: fixed;
+    background-size: 400px 400px;
+}
+
+
+.header__container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.header_align__items__center{
+    align-items: center;
+    width: 33%;
+    padding: 10px 0 10px 0 ;
+}
+
+/*menu*/
+
+.top-menu {
+    list-style: none;
+}
+
+.top-menu li{
+    display: inline-block;
+    padding: 4px 8px;
+}
+
+.top-menu a{
+    text-decoration: none;
+    color: white;
+    font-weight: 300;
+
+}
+
+/*Головне меню*/
+.nav {
+    list-style: none;
+    text-align: center;
+}
+.nav a{
+    color: #ffffff;
+    text-decoration: none;
+    transition: .25s;
+}
+.nav li{
+    padding: 4px 12px;
+    display: inline-block;
+}
+/*При наведенні*/
+.nav a:hover{
+    border-bottom: 1px solid black;
+}
+
+.main_text{
+    line-height: 27px;
+    text-align: justify;
+}
+
+.my_color{
+    color: white;
+}
+
+
+#Easter_egg_elem{
+    transition: transform 1s linear;
+}
+#Easter_egg_elem:hover {
+    transform: rotate(180deg);
+}
+/*Слайдер*/
+.slider {
+    z-index: 9;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.slider ul,
+.slider li {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+.slider ul {
+    width: 300%;
+    height: 100%;
+}
+
+.slider ul li {
+    list-style-type: none;
+    float: left;
+    width: 33.33333%;
+}
+
+.slider .nav {
+    position: absolute;
+    left: 15px;
+    bottom: 12px;
+}
+
+.slider .nav span {
+    opacity: 0.9;
+    background: #fff;
+    margin: 0 8px 0 0;
+    width: 16px;
+    height: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    overflow: hidden;
+    display: block;
+    float: left;
+    box-shadow: 0 1px 2px #000;
+}
+
+.slider .nav span.on {
+    background: #2e9419;
+}
+
+.index_photos{
+    width: 33.3333%;
+    display: inline-block;
+    overflow: hidden;
+}
+.index_photos img{
+    transition: 0.5s;
+    display: block;
+}
+.index_photos img:hover {
+    transform: scale(1.1); /* Увеличиваем масштаб */
+}
+
+.video{
+    position:relative;
+    padding-bottom:56.25%;
+    padding-top:25px;height:0;
+}
+
+.video iframe {
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;}
+/*футер*/
+.footer_align__items__center{
+    align-items: center;
+    width: 33.3333%;
+    padding: 10px 0 10px 0 ;
+}
+
+.foot-menu {
+    list-style: none;
+}
+
+.foot-menu li{
+    padding: 4px 8px;
+}
+
+.foot-menu a{
+    text-decoration: none;
+    color: white;
+    font-weight: 300;
+
+}

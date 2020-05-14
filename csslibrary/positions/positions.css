@@ -1,0 +1,48 @@
+/*POSITIONS*/
+
+.pos-absolute{
+    position: absolute;
+}
+
+.pos-fixed{
+    position: fixed;
+}
+
+.pos-relative{
+    position: relative;
+}
+
+.pos-static{
+    position: static;
+}
+
+.fixed-top{
+    top: 0;
+    left: 0;
+}
+
+.fixed-center{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.z-top{
+    z-index: 9999;
+}
+
+@media screen and (max-width: 1200px){
+
+}
+
+@media screen and (max-width: 992px){
+
+}
+
+@media screen and (max-width: 768px){
+
+}
+
+@media screen and (max-width: 576px){
+    
+}
